@@ -8,30 +8,17 @@
 </head>
 <body>
     <script>
-        // 짝수 검사하는 프로그램
+        // 숫자 입력받기
         var value = window.prompt("숫자를 입력해 주세요.");
 
         // prompt는 스트링형태로 받기때문에 int로 형변환
         value = parseInt(value);
 
+        // 홀수와 짝수를 검사하는 프로그램
         if(value % 2 == 0) {
             alert("짝수입니다.");
         } else {
             alert("홀수입니다.");
-        }
-
-        // 2와 3의 공배수를 검사하는 프로그램(AND)
-        if(value % 2 == 0 && value % 3 == 0) {
-            alert("2와 3의 공배수입니다.");
-        } else {
-            alert("2와 3의 공배수가 아닙니다.");
-        }
-
-        // 2나 3의 공배수를 검사하는 프로그램(OR)
-        if(value % 2 == 0 || value % 3 == 0) {
-            alert("2나 3의 공배수입니다.");
-        } else {
-            alert("2나 3의 공배수가 아닙니다.");
         }
 
     </script>
