@@ -1,0 +1,28 @@
+#panel {
+    width : 600px;
+    height: 300px;
+    border : 1px solid #999;
+    position: relative;
+}
+#bar {
+    position : absolute;
+    left : 50px;
+    top: 190px;
+    width : 500px;
+    height : 15px;
+    background-color : #F33;
+}
+#gigu {
+    width: 80px;
+    position: absolute;
+    left:50px;
+    bottom: 114px;
+}
+#btn {
+    text-align: 600px;
+    width: 600px;
+}
+#btn_start {
+    font-size: 12px;
+    font-weight: bold;
+}
